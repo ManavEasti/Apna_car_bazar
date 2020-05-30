@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Apna Car Bazar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="createaccount">Create Account</string>
+    <string name="login">Login</string>
+    <string name="search">Search</string>
+    <string name="remember_me">Remember me</string>
+    <string name="homepage">HomePage</string>
+    <string name="viewlist">ViewList</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="it_end_here">it End Here</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="profile_photo">profile photo</string>
+    <string name="id">Id</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="todo">TODO</string>
+    <string name="top_10_cars_of_the_year">Top 10 Cars of The Year</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="top_1">Top 1</string>
+    <string name="top1_audi_e_tron">Top1-Audi e-tron</string>
+    <string name="top2_bmw_3_series">Top2-BMW 3 Series</string>
+    <string name="top3_ford_focus">Top3-Ford Focus</string>
+    <string name="top4_genesis_g70">Top4-Genesis G70</string>
+    <string name="top5_hyundai_nexo">Top5-Hyundai Nexo</string>
+    <string name="top6_jaguar_i_pace">Top6-Jaguar I-PACE</string>
+    <string name="top7_mercedes_benz_a_c">Top7-Mercedes-Benz A-C</string>
+    <string name="top8_suzuki_jimny">Top8-Suzuki Jimny</string>
+    <string name="top9_volvo_s60">Top9-Volvo S60</string>
+    <string name="top10_volvo_xc40">Top10-Volvo XC40</string>
+    <string name="contact_now">Contact now</string>
+    <string name="contact_developer_2">Contact app developer 2</string>
+    <string name="contact_developer_1">Contact app developer 1</string>
+    <string name="contact_for_selling_your_car">Contact 1 for selling your car</string>
+    <string name="contact_for_selling_your_car2">Contact 2 for selling your car</string>
+    <string name="version_1_0_by_sas_developers">Version 1.0 - By SAS.developers</string>
+
+</resources>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient2"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"
+                >
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"
+                >
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"
+                >
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"
+                >
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"
+                >
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff">
+
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff">
+
+            </Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call8"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"></Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call9"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"></Button>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_margin="16dp"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="3"
+                    app:sliderStartAutoCycle="true" >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/call10"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="110dp"
+                android:text="@string/buy_now"
+                android:textSize="20sp"
+                android:background="@drawable/curve2"
+                android:textColor="#fff"></Button>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it_end_here"
+                android:textSize="48sp"
+                >
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation_view"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/nav_items"
+        app:itemIconTint="#fff"
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
